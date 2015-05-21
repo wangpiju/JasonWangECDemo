@@ -11,6 +11,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.3.4'
 gem "paperclip", "~> 4.2"
+gem "dropbox-sdk", "~> 1.3"
+gem "paperclip-dropbox", ">= 1.1.7"
 
 group :production do 
 	gem 'pg'
